@@ -1,112 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Webpage</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>MDN Web Developer</title>
+    
 </head>
-
-<body class="bg-gray-100">
-    <div class="container mx-auto">
-        <header class="bg-blue-600 py-4 px-6">
-            <nav class="bg-blue-500 shadow">
-                <div class="max-w-7xl mx-auto px-4">
-                    <div class="flex justify-between h-16">
-                        <!-- Logo -->
-                        <div class="flex-shrink-0 flex items-center">
-                            <img class="h-8 w-auto" src="imgs/logo.jpg" alt="Logo">
-                        </div>
-
-                        <!-- Menu -->
-                        <div class="hidden md:block">
-                            <div class="ml-10 flex items-baseline space-x-4">
-                                <a href="#" class="px-3 py-2 text-gray-700 hover:text-gray-900 font-medium">Home</a>
-                                <a href="#" class="px-3 py-2 text-gray-700 hover:text-gray-900 font-medium">About</a>
-                                <a href="#" class="px-3 py-2 text-gray-700 hover:text-gray-900 font-medium">Services</a>
-                                <a href="#" class="px-3 py-2 text-gray-700 hover:text-gray-900 font-medium">Contact</a>
-                            </div>
-                        </div>
-
-                        <!-- CTA Buttons -->
-                        <div class="hidden md:block">
-                            <div class="ml-4 flex items-center md:ml-6">
-                                <a href="#" class="text-gray-700 hover:text-gray-900 font-medium">Login</a>
-                                <a href="#"
-                                    class="ml-4 px-3 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-500">Sign
-                                    Up</a>
-                            </div>
-                        </div>
-
-                        <!-- Hamburger Menu -->
-                        <div class="-mr-2 flex md:hidden">
-                            <button type="button"
-                                class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
-                                aria-label="Main menu" aria-expanded="false">
-                                <!-- Icon when menu is closed. -->
-                                <!-- Menu open: "hidden", Menu closed: "block" -->
-                                <svg class="block h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M4 6h16M4 12h16M4 18h16"></path>
-                                </svg>
-                                <!-- Icon when menu is open. -->
-                                <!-- Menu open: "block", Menu closed: "hidden" -->
-                                <svg class="hidden h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M6 18L18 6M6 6l12 12"></path>
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Mobile Menu -->
-                <div class="hidden md:hidden">
-                    <div class="px-2 pt-2 pb-3 sm:px-3">
-                        <a href="#"
-                            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Home</a>
-                        <a href="#"
-                            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">About</a>
-                        <a href="#"
-                            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Services</a>
-                        <a href="#"
-                            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Contact</a>
-                    </div>
-                    <div class="pt-4 pb-3 border-t border-gray-200">
-                        <div class="flex items-center px-5">
-                            <div class="flex-shrink-0">
-                                <img class="h-10 w-10 rounded-full" src="profile.jpg" alt="">
-                            </div>
-                            <div class="ml-3">
-                                <div class="text-base font-medium leading-6 text-gray-800">John Doe</div>
-                                <div class="text-sm font-medium leading-5 text-gray-500">johndoe@example.com</div>
-                            </div>
-                        </div>
-                        <div class="mt-3 px-2">
-                            <a href="#"
-                                class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Dashboard</a>
-                            <a href="#"
-                                class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Profile</a>
-                            <a href="#"
-                                class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Logout</a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <main class="py-6 px-8">
-            <p class="text-lg mb-4">Welcome to my webpage! Here's some content:</p>
-            <ul class="list-disc pl-6">
-                <li class="mb-2">Item 1</li>
-                <li class="mb-2">Item 2</li>
-                <li class="mb-2">Item 3</li>
-            </ul>
-        </main>
-        <footer class="bg-gray-200 py-4 px-6">
-            <p class="text-sm">&copy; 2023 My Webpage. All rights reserved.</p>
-        </footer>
-    </div>
+<body>
+    <p>Player 1: Chris</p>
 </body>
+    <script>
 
+        
+    const para = document.querySelector('p')
+    para.addEventListener("click", updateText)
+
+    function updateText(){
+        const name = prompt("Enter a new name");
+        para.textContent('Player 1: ${name}');
+    }
+
+    </script>
 </html>
